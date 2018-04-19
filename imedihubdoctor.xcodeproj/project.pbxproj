@@ -11,11 +11,33 @@
 		357DE0FB1DF69FF2006E821D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 357DE0FA1DF69FF2006E821D /* AppDelegate.m */; };
 		357DE0FE1DF69FF2006E821D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 357DE0FD1DF69FF2006E821D /* ViewController.m */; };
 		357DE1011DF69FF2006E821D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357DE0FF1DF69FF2006E821D /* Main.storyboard */; };
-		357DE1031DF69FF3006E821D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357DE1021DF69FF3006E821D /* Assets.xcassets */; };
 		357DE1061DF69FF3006E821D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 357DE1041DF69FF3006E821D /* LaunchScreen.storyboard */; };
+		357DE1101DF6B5C4006E821D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 357DE10F1DF6B5C3006E821D /* MBProgressHUD.m */; };
+		357DE1171DF6BA48006E821D /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1121DF6BA48006E821D /* Accelerate.framework */; };
+		357DE1181DF6BA48006E821D /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1131DF6BA48006E821D /* AudioToolbox.framework */; };
+		357DE1191DF6BA48006E821D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1141DF6BA48006E821D /* AVFoundation.framework */; };
+		357DE11A1DF6BA48006E821D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1151DF6BA48006E821D /* CFNetwork.framework */; };
+		357DE11B1DF6BA48006E821D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1161DF6BA48006E821D /* CoreGraphics.framework */; };
+		357DE11D1DF6BA68006E821D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE11C1DF6BA68006E821D /* Security.framework */; };
+		357DE11F1DF6BA7A006E821D /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE11E1DF6BA7A006E821D /* CoreVideo.framework */; };
+		357DE1211DF6BA89006E821D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1201DF6BA89006E821D /* CoreMedia.framework */; };
+		357DE1231DF6BAA8006E821D /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1221DF6BAA8006E821D /* CoreData.framework */; };
+		357DE1251DF6BAC0006E821D /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1241DF6BAC0006E821D /* CoreLocation.framework */; };
+		357DE1271DF6BACF006E821D /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1261DF6BACF006E821D /* MobileCoreServices.framework */; };
+		357DE1291DF6BAED006E821D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1281DF6BAED006E821D /* SystemConfiguration.framework */; };
+		357DE12B1DF6BAF7006E821D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE12A1DF6BAF7006E821D /* UIKit.framework */; };
+		357DE12D1DF6BB01006E821D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE12C1DF6BB01006E821D /* Foundation.framework */; };
+		357DE1341DF6BB8C006E821D /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1331DF6BB8C006E821D /* libz.tbd */; };
+		357DE1361DF6BBA1006E821D /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1351DF6BBA1006E821D /* libresolv.tbd */; };
+		357DE1381DF6BBBB006E821D /* libxml2.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE1371DF6BBBB006E821D /* libxml2.tbd */; };
+		357DE13A1DF6C149006E821D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 357DE1391DF6C149006E821D /* Assets.xcassets */; };
+		357DE17E1DF6CB2A006E821D /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 357DE17D1DF6CB2A006E821D /* CoreTelephony.framework */; };
+		357DE1801DF6CE30006E821D /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 357DE17F1DF6CE30006E821D /* Localizable.strings */; };
+		76DFBA986D9A059F1CEB76A6 /* libPods-imedihubdoctor.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 91E2BCE81738D44072C0A0D1 /* libPods-imedihubdoctor.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		350124951DF98A8D00A9655C /* Quickblox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Quickblox.framework; sourceTree = "<group>"; };
 		357DE0F31DF69FF1006E821D /* imedihubdoctor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = imedihubdoctor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		357DE0F71DF69FF2006E821D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		357DE0F91DF69FF2006E821D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -23,9 +45,33 @@
 		357DE0FC1DF69FF2006E821D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		357DE0FD1DF69FF2006E821D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		357DE1001DF69FF2006E821D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		357DE1021DF69FF3006E821D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		357DE1051DF69FF3006E821D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		357DE1071DF69FF3006E821D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		357DE10E1DF6B5C3006E821D /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		357DE10F1DF6B5C3006E821D /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		357DE1121DF6BA48006E821D /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		357DE1131DF6BA48006E821D /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		357DE1141DF6BA48006E821D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		357DE1151DF6BA48006E821D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		357DE1161DF6BA48006E821D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		357DE11C1DF6BA68006E821D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		357DE11E1DF6BA7A006E821D /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		357DE1201DF6BA89006E821D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		357DE1221DF6BAA8006E821D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		357DE1241DF6BAC0006E821D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		357DE1261DF6BACF006E821D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		357DE1281DF6BAED006E821D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		357DE12A1DF6BAF7006E821D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		357DE12C1DF6BB01006E821D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		357DE1331DF6BB8C006E821D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		357DE1351DF6BBA1006E821D /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		357DE1371DF6BBBB006E821D /* libxml2.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libxml2.tbd; path = usr/lib/libxml2.tbd; sourceTree = SDKROOT; };
+		357DE1391DF6C149006E821D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		357DE17D1DF6CB2A006E821D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		357DE17F1DF6CE30006E821D /* Localizable.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		91E2BCE81738D44072C0A0D1 /* libPods-imedihubdoctor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-imedihubdoctor.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3C87B202CA0B2626D5F287B /* Pods-imedihubdoctor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imedihubdoctor.release.xcconfig"; path = "Pods/Target Support Files/Pods-imedihubdoctor/Pods-imedihubdoctor.release.xcconfig"; sourceTree = "<group>"; };
+		B7419C138C8AB1319BC3E370 /* Pods-imedihubdoctor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-imedihubdoctor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-imedihubdoctor/Pods-imedihubdoctor.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +79,25 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357DE17E1DF6CB2A006E821D /* CoreTelephony.framework in Frameworks */,
+				357DE1381DF6BBBB006E821D /* libxml2.tbd in Frameworks */,
+				357DE1361DF6BBA1006E821D /* libresolv.tbd in Frameworks */,
+				357DE1341DF6BB8C006E821D /* libz.tbd in Frameworks */,
+				357DE11B1DF6BA48006E821D /* CoreGraphics.framework in Frameworks */,
+				357DE12D1DF6BB01006E821D /* Foundation.framework in Frameworks */,
+				357DE12B1DF6BAF7006E821D /* UIKit.framework in Frameworks */,
+				357DE1291DF6BAED006E821D /* SystemConfiguration.framework in Frameworks */,
+				357DE1271DF6BACF006E821D /* MobileCoreServices.framework in Frameworks */,
+				357DE1251DF6BAC0006E821D /* CoreLocation.framework in Frameworks */,
+				357DE1231DF6BAA8006E821D /* CoreData.framework in Frameworks */,
+				357DE1211DF6BA89006E821D /* CoreMedia.framework in Frameworks */,
+				357DE11F1DF6BA7A006E821D /* CoreVideo.framework in Frameworks */,
+				357DE11D1DF6BA68006E821D /* Security.framework in Frameworks */,
+				357DE1171DF6BA48006E821D /* Accelerate.framework in Frameworks */,
+				357DE1181DF6BA48006E821D /* AudioToolbox.framework in Frameworks */,
+				357DE1191DF6BA48006E821D /* AVFoundation.framework in Frameworks */,
+				357DE11A1DF6BA48006E821D /* CFNetwork.framework in Frameworks */,
+				76DFBA986D9A059F1CEB76A6 /* libPods-imedihubdoctor.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +107,11 @@
 		357DE0EA1DF69FF0006E821D = {
 			isa = PBXGroup;
 			children = (
+				357DE17F1DF6CE30006E821D /* Localizable.strings */,
 				357DE0F51DF69FF1006E821D /* imedihubdoctor */,
 				357DE0F41DF69FF1006E821D /* Products */,
+				357DE1111DF6BA47006E821D /* Frameworks */,
+				CA301FF562EB24A195AF6F78 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +126,14 @@
 		357DE0F51DF69FF1006E821D /* imedihubdoctor */ = {
 			isa = PBXGroup;
 			children = (
+				357DE10D1DF6B4C2006E821D /* MBProgressHUD */,
 				357DE0F91DF69FF2006E821D /* AppDelegate.h */,
 				357DE0FA1DF69FF2006E821D /* AppDelegate.m */,
 				357DE0FC1DF69FF2006E821D /* ViewController.h */,
 				357DE0FD1DF69FF2006E821D /* ViewController.m */,
 				357DE0FF1DF69FF2006E821D /* Main.storyboard */,
-				357DE1021DF69FF3006E821D /* Assets.xcassets */,
 				357DE1041DF69FF3006E821D /* LaunchScreen.storyboard */,
+				357DE1391DF6C149006E821D /* Assets.xcassets */,
 				357DE1071DF69FF3006E821D /* Info.plist */,
 				357DE0F61DF69FF2006E821D /* Supporting Files */,
 			);
@@ -79,6 +148,51 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		357DE10D1DF6B4C2006E821D /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				357DE10E1DF6B5C3006E821D /* MBProgressHUD.h */,
+				357DE10F1DF6B5C3006E821D /* MBProgressHUD.m */,
+			);
+			name = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		357DE1111DF6BA47006E821D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				350124951DF98A8D00A9655C /* Quickblox.framework */,
+				357DE17D1DF6CB2A006E821D /* CoreTelephony.framework */,
+				357DE1371DF6BBBB006E821D /* libxml2.tbd */,
+				357DE1351DF6BBA1006E821D /* libresolv.tbd */,
+				357DE1331DF6BB8C006E821D /* libz.tbd */,
+				357DE12C1DF6BB01006E821D /* Foundation.framework */,
+				357DE12A1DF6BAF7006E821D /* UIKit.framework */,
+				357DE1281DF6BAED006E821D /* SystemConfiguration.framework */,
+				357DE1261DF6BACF006E821D /* MobileCoreServices.framework */,
+				357DE1241DF6BAC0006E821D /* CoreLocation.framework */,
+				357DE1221DF6BAA8006E821D /* CoreData.framework */,
+				357DE1201DF6BA89006E821D /* CoreMedia.framework */,
+				357DE11E1DF6BA7A006E821D /* CoreVideo.framework */,
+				357DE11C1DF6BA68006E821D /* Security.framework */,
+				357DE1121DF6BA48006E821D /* Accelerate.framework */,
+				357DE1131DF6BA48006E821D /* AudioToolbox.framework */,
+				357DE1141DF6BA48006E821D /* AVFoundation.framework */,
+				357DE1151DF6BA48006E821D /* CFNetwork.framework */,
+				357DE1161DF6BA48006E821D /* CoreGraphics.framework */,
+				91E2BCE81738D44072C0A0D1 /* libPods-imedihubdoctor.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CA301FF562EB24A195AF6F78 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B7419C138C8AB1319BC3E370 /* Pods-imedihubdoctor.debug.xcconfig */,
+				B3C87B202CA0B2626D5F287B /* Pods-imedihubdoctor.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +200,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 357DE10A1DF69FF3006E821D /* Build configuration list for PBXNativeTarget "imedihubdoctor" */;
 			buildPhases = (
+				0EBFF2CA8F30B0C71CFC8306 /* [CP] Check Pods Manifest.lock */,
 				357DE0EF1DF69FF1006E821D /* Sources */,
 				357DE0F01DF69FF1006E821D /* Frameworks */,
 				357DE0F11DF69FF1006E821D /* Resources */,
+				21AD5B714408FE1D4841120C /* [CP] Embed Pods Frameworks */,
+				C4E91504EDE65E911580AE82 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -138,13 +255,68 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				357DE1801DF6CE30006E821D /* Localizable.strings in Resources */,
 				357DE1061DF69FF3006E821D /* LaunchScreen.storyboard in Resources */,
-				357DE1031DF69FF3006E821D /* Assets.xcassets in Resources */,
+				357DE13A1DF6C149006E821D /* Assets.xcassets in Resources */,
 				357DE1011DF69FF2006E821D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0EBFF2CA8F30B0C71CFC8306 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-imedihubdoctor-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		21AD5B714408FE1D4841120C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imedihubdoctor/Pods-imedihubdoctor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E91504EDE65E911580AE82 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-imedihubdoctor/Pods-imedihubdoctor-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-imedihubdoctor/Pods-imedihubdoctor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		357DE0EF1DF69FF1006E821D /* Sources */ = {
@@ -154,6 +326,7 @@
 				357DE0FE1DF69FF2006E821D /* ViewController.m in Sources */,
 				357DE0FB1DF69FF2006E821D /* AppDelegate.m in Sources */,
 				357DE0F81DF69FF2006E821D /* main.m in Sources */,
+				357DE1101DF6B5C4006E821D /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,24 +444,38 @@
 		};
 		357DE10B1DF69FF3006E821D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7419C138C8AB1319BC3E370 /* Pods-imedihubdoctor.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VTE566JDHF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = imedihubdoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.echoihub.imedihubdoctor;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.imedihubdoctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		357DE10C1DF69FF3006E821D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3C87B202CA0B2626D5F287B /* Pods-imedihubdoctor.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = VTE566JDHF;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				HEADER_SEARCH_PATHS = /usr/include/libxml2;
 				INFOPLIST_FILE = imedihubdoctor/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.echoihub.imedihubdoctor;
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				OTHER_LDFLAGS = "";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.imedihubdoctor;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -312,6 +499,7 @@
 				357DE10C1DF69FF3006E821D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

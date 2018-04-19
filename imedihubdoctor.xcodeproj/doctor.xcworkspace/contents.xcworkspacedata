@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "container:">
+   </FileRef>
+   <FileRef
+      location = "group:../../iphone Stuff &amp;  projects/OS X 10.8 Mountain Lion Retail VMware Image/quickblox-ios-sdk-master/sample-chat/Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
